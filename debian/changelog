@@ -1,0 +1,36 @@
+python-slugify (1.2.4-2) unstable; urgency=medium
+
+  * Upload to unstable.
+  * Bump compat level from 9 to 10.
+  * debian/control:
+    - Bump Standards-Version to 4.1.0.
+    - Depend on debhelper >= 10 instead of >= 9.
+  * Bump copyright years.
+
+ -- Hugo Lefeuvre <hle@debian.org>  Sun, 24 Sep 2017 23:30:55 +0200
+
+python-slugify (1.2.4-1) experimental; urgency=low
+
+  * New upstream release.
+  * Fix section of binary package slugify (now text).
+
+ -- Hugo Lefeuvre <hle@debian.org>  Wed, 24 May 2017 17:14:31 +0200
+
+python-slugify (1.2.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/control:
+    - Remove useless '(Python 2)' information from the description.
+  * debian/copyright:
+    - Change license from BSD-3-clause to Expat (upstream decision
+      since 1.2.1).
+  * debian/rules:
+    - Run tests during build.
+
+ -- Hugo Lefeuvre <hle@debian.org>  Wed, 21 Dec 2016 12:44:02 +0200
+
+python-slugify (1.2.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #816727)
+
+ -- Hugo Lefeuvre <hle@debian.org>  Tue, 21 Jun 2016 10:06:26 +0200
